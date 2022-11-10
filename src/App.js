@@ -5,20 +5,20 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="weather-app">
-          <form id="search-form">
+          <form>
+            <h1>Weather Search Application</h1>
             <div className="row">
-              <div className="col-9">
+              <div className="col-6">
                 <input
                   type="search"
                   placeholder="Please type a city.."
                   autocomplete="off"
                   autofocus="on"
-                  className="form-control"
                   id="city-input"
                 />
               </div>
-              <div className="col-3">
-                <input type="submit" value="Click2Search" />
+              <div className="col-6">
+                <input type="submit" value="Submit" />
               </div>
             </div>
           </form>
@@ -66,11 +66,11 @@ function App() {
       <p>
         <small>
           <a
-            href="https://github.com/mahavis/Vanilla-weather-forecast"
+            href="https://github.com/mahavis/weather-react-homework"
             target="_blank"
           >
             Partly-sourced on GitHub
-          </a>
+          </a>{" "}
           Coded by Mahalakshmi Viswanath
         </small>
       </p>
