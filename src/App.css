@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.weatherInfo {
+  text-align: end;
+  margin-top: 1px;
+  padding-top: 1px;
 }
 
 body {
@@ -13,6 +15,12 @@ h1 {
   line-height: 26px;
   font-weight: 100;
   margin-bottom: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 ul {
@@ -46,10 +54,10 @@ li {
   margin-bottom: 20px;
 }
 
-.weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+.units img {
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
 }
 
 .weather-temperature strong {
