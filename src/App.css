@@ -1,9 +1,3 @@
-.weatherInfo {
-  text-align: end;
-  margin-top: 1px;
-  padding-top: 1px;
-}
-
 body {
   font-family: Google Sans, arial, sans-serif;
   background-color: lightgreen;
@@ -20,7 +14,8 @@ h1 {
 
 h2 {
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: bold;
+  text-align: center;
 }
 
 ul {
@@ -40,14 +35,16 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+  text-align: center;
 }
-.weather-app {
+.myWeatherApp {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
   background-color: lightgoldenrodyellow;
+  text-align: center;
 }
 
 .overview {
@@ -69,7 +66,7 @@ li {
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-size: 64px;
   top: -34px;
 }
 
@@ -100,4 +97,9 @@ p {
 
 .weather-forecast-min {
   opacity: 0.5;
+}
+
+.weatherInfo {
+  padding-right: 80px;
+  padding-top: 5px;
 }
